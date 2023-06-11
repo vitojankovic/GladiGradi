@@ -29,10 +29,6 @@
   z-index: 100;
 }
 
-.navigation-display {
-  display: none !important;
-}
-
 .navigation-display-true {
   background-color: #121212;
   position: fixed;
@@ -743,6 +739,7 @@ body {
   }
   .navbar-mobile {
     display: flex !important;
+    z-index: 5000000 !important;
   }
   #contact-wrap {
     flex-direction: column !important;

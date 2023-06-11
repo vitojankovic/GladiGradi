@@ -23,7 +23,11 @@ export default function NavBar() {
 
   const ToggleClass = () => {
     setActive(!isActive); 
-   };
+  };
+
+  const hide = () => {
+    setDisplay("false");
+  }
 
   const ToggleDisplay = () => {
     setDisplay(!display);
@@ -73,23 +77,23 @@ export default function NavBar() {
       </Link>
    </Navbar>
 
-   <Navbar className={display ? "navigation-display" : "navigation-display-true"}>
-        <Link className="link" to="/Contact">
+   <Nav className={display ? "navigation-display" : "navigation-display-true"}>
+        <Link onCLick={hide} className="link" to="/Contact">
           <p>
           Properties
           </p>
         </Link>
-        <Link className="link" to="About">
+        <Link onCLick={hide} className="link" to="About">
           <p>
           About
           </p>
         </Link>
-        <Link className="link" to="Contact">
+        <Link onCLick={hide} className="link" to="Contact">
           <p>
           Contact
           </p>
         </Link>
-   </Navbar>
+   </Nav>
    </>
   )
 }
