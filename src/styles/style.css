@@ -29,6 +29,10 @@
   z-index: 100;
 }
 
+html {
+  overflow-x: hidden;
+}
+
 .navigation-display-true {
   background-color: #121212;
   position: fixed;
