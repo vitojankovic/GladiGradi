@@ -1,7 +1,7 @@
 {
+  "homepage": "http://vitojankovic.github.io/gladi-gradi",
   "name": "ggg",
   "version": "0.1.0",
-  "homepage": "https:vitojankovic.github.io/react-gh-pages",
   "private": false,
   "dependencies": {
     "@react-spring/parallax": "^9.7.2",
@@ -44,5 +44,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "gh-pages": "^5.0.0"
   }
 }
