@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/gladi-gradi/static/css/main.a93c52fb.css",
+    "main.js": "/gladi-gradi/static/js/main.cd129905.js",
+    "static/media/Droid-Sans-Fallback.ttf": "/gladi-gradi/static/media/Droid-Sans-Fallback.6e88612a7a7d16781539.ttf",
+    "static/media/sea.webp": "/gladi-gradi/static/media/sea.b10a41a3f67644f91b63.webp",
+    "static/media/homescreenfour.webp": "/gladi-gradi/static/media/homescreenfour.2c9b2fc46411e4ef31ea.webp",
+    "static/media/pogled I2.webp": "/gladi-gradi/static/media/pogled I2.6379a46877271958e80b.webp",
+    "static/media/1S_ST-1_0priz.jpg": "/gladi-gradi/static/media/1S_ST-1_0priz.025b50617cb12d00d4cb.jpg",
+    "static/media/1S_ST-1_2kat.jpg": "/gladi-gradi/static/media/1S_ST-1_2kat.972bf59ae869fa12b75f.jpg",
+    "static/media/1S_ST-1_1kat.jpg": "/gladi-gradi/static/media/1S_ST-1_1kat.32b4595ec86fed2b2c76.jpg",
+    "static/media/logo.svg": "/gladi-gradi/static/media/logo.835330c365438fade970fe31ca501103.svg",
+    "index.html": "/gladi-gradi/index.html",
+    "static/media/twitter.svg": "/gladi-gradi/static/media/twitter.02ea4610124fbdf3cb8bc10329c4e7e7.svg",
+    "static/media/instagram.svg": "/gladi-gradi/static/media/instagram.1552a4428635704c8257007e0af6cda5.svg",
+    "static/media/facebook.svg": "/gladi-gradi/static/media/facebook.aa0d840e5a2b7576911213de0aea0ed8.svg",
+    "main.a93c52fb.css.map": "/gladi-gradi/static/css/main.a93c52fb.css.map",
+    "main.cd129905.js.map": "/gladi-gradi/static/js/main.cd129905.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a93c52fb.css",
+    "static/js/main.cd129905.js"
+  ]
+}
