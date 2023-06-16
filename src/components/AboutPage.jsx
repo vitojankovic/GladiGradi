@@ -15,7 +15,6 @@ export default function AboutPage() {
 
 
   return (
-    <div className="about-container">
       <div className="about-wrapper">
         <div className="text-wrapper">
           <h1 data-aos="fade-left" className="about-title">
@@ -30,7 +29,7 @@ export default function AboutPage() {
             Goran Suton
           </h1>
           <p data-aos="fade-right" className="text">
-          Goran Suton je završio građevinski fakultet i duže od 30 godina se bavi izgradnjom stambenih jedinica i samostojećih zgrada. Nakon što se osamostalio, njegov građevinski opus se može vidjeti na stranici sutonnabregu.com
+          Goran Suton diplomirani je inženjer građevinarstva sa dugogodišnjim iskustvom u stanogradnji.  Kroz tridesetogodišnju karijeru, bavio se izgradnjom stambenih zgrada u Zagrebu te luksuznih kuća uz obalu Jadranskog mora.  Nakon što se osamostalio, njegov građevinski opus može se vidjeti na stranici sutonabregu.hr
           </p>
 
  
@@ -38,7 +37,7 @@ export default function AboutPage() {
             Dino Janković
           </h1>
           <p data-aos="fade-right" className="text">
-          Dino Janković je prvo 9 godina bio direktor riznice u Erste banci, da bi zadnjih 20ak godina radio kao financijski direktor i financijski savjetnik u farmaceutskoj kompaniji Grunenthal GmbH (koju je kasnije preuzela Stada GmbH). Paralelno je Dino Janković ulagao sredstva i obavljao financijske transakcije kroz svoju tvrtku Altius d.o.o.
+          Nakon devetogodišnjeg iskustva direktora riznice u Erste banci, Dino Janković posljednjih 20-ak godina radi kao financijski direktor i financijski savjetnik farmaceutske kompanije Grunenthal GmbH (koju je kasnije preuzela Stada GmbH).  Paralelno ulaže sredstva i obavlja financijske transakcije kroz vlastitu tvrtku, Altius d.o.o.
           </p>
 
 
@@ -46,19 +45,17 @@ export default function AboutPage() {
             Partnerstvo
           </h1>
           <p data-aos="fade-right" className="text">
-          Dino Janković i Goran Suton su višegodišnji prijatelji koje je najviše zbližila ljubav prema košarci, ali i međusobno poštovanje i ugled kojeg su obojica stjecala tijekom svoje višegodišnje karijere.
+          Dino i Goran dugogodišnji su prijatelji koje je prvobitno zbližila ljubav prema košarci, a potom i međusobno poštovanje, korektnost, pouzdanost te ugled kojeg su obojica stjecala tijekom svojih poslovnih karijera.
           </p>
  
           <h1 data-aos="fade-left" className="about-title">
-            Hvaljenje
+            Nešto
           </h1>
           <p data-aos="fade-right" className="text">
-          Višegodišnje uspješne karijere Gorana i Dina mogu biti garancija svakom potencijalnom kupcu nekretnine od tvrtka Gladi i gradi d.o.o. da će dobiti odličan i pouzdan proizvod za svoje novce!
+          Znanje, upornost, inovativnost i pedantnost samo su neke od vrlina koje su obilježile njihove uspješne, dugogodišnje karijere.  Njihova poslovna simbioza kroz tvrtku Gladi i gradi d.o.o. recept su za odličan proizvod i garancija kvalitete i zadovoljstva svakom potencijalnom kupcu njihove nekretnine.
           </p>
 
           </div>
     </div>
-
-      </div>
   )
 }

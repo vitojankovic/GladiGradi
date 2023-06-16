@@ -29,22 +29,21 @@
   z-index: 100;
 }
 
-html {
+body, html {
+  -webkit-overflow-scrolling: touch;
   overflow-x: hidden;
 }
 
 .navigation-display-true {
   background-color: #121212;
-  position: fixed;
   width: 100%;
+  position: fixed;
   z-index: 500;
   height: 100%;
   font-size: 36px;
-  height: 100%;
   display: flex;
   justify-content: space-around;
   flex-direction: column;
-  width: 100%;
   align-items: center;
 }
 .navigation-display-true p {
@@ -121,7 +120,6 @@ html {
   src: url(../images/Droid-Sans-Fallback.ttf);
 }
 body {
-  overflow-x: hidden;
   font-family: fallback;
 }
 
@@ -159,7 +157,7 @@ body {
 
 .footer-main {
   position: absolute;
-  margin-top: 80px;
+  margin-top: 120px;
   background-color: transparent;
   width: 100%;
   height: auto;
@@ -254,6 +252,13 @@ body {
   .pics-container {
     flex-direction: column;
   }
+  .page-container .title {
+    color: white !important;
+    top: 10em !important;
+  }
+  .page-container .button-container {
+    top: 27.5em !important;
+  }
   .carousel-control-prev {
     margin-right: 0;
     margin-bottom: 10px;
@@ -333,29 +338,27 @@ body {
   height: 10%;
 }
 
-.about-container {
+.about-wrapper {
   display: flex;
-  justify-content: space-between;
   position: absolute;
-  flex-wrap: wrap;
-  width: 100%;
+  width: 100vw;
   margin-top: -64px;
-  height: 100vh;
-}
-.about-container .about-wrapper {
-  display: flex;
   flex-direction: row;
+  left: auto;
+  right: auto;
 }
-.about-container .about-wrapper:nth-child(2) {
+.about-wrapper:nth-child(2) {
   margin-top: 100vh;
 }
-.about-container .about-wrapper .text-wrapper {
+.about-wrapper .text-wrapper {
   display: flex;
   flex-direction: column;
   text-align: center;
   align-items: center;
+  margin-left: auto;
+  margin-right: auto;
 }
-.about-container .about-wrapper .text-wrapper .about-title {
+.about-wrapper .text-wrapper .about-title {
   margin-top: 110px;
   font-size: 3.5em;
   color: white;
@@ -363,14 +366,14 @@ body {
   height: 125px;
   align-items: center;
 }
-.about-container .about-wrapper .text-wrapper .text {
+.about-wrapper .text-wrapper .text {
   display: flex;
   justify-content: center;
   color: white;
   max-width: 40%;
   font-size: 1.5em;
 }
-.about-container .about-wrapper .d-container {
+.about-wrapper .d-container {
   display: flex;
 }
 
@@ -378,7 +381,7 @@ body {
   text-align: center;
   margin-top: -64px;
   position: absolute;
-  width: 100%;
+  width: 100vw;
   height: 100vh;
   padding-bottom: 2.5rem;
 }
@@ -503,7 +506,7 @@ body {
   margin-right: auto;
 }
 .image-container .img-in-container {
-  width: 100%;
+  width: 60vw;
 }
 .image-container .description {
   color: white;
@@ -744,6 +747,7 @@ body {
   .navbar-mobile {
     display: flex !important;
     z-index: 5000000 !important;
+    width: 100vw !important;
   }
   #contact-wrap {
     flex-direction: column !important;

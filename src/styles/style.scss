@@ -31,23 +31,21 @@
   }
 }
 
-html{
+body, html {
+  -webkit-overflow-scrolling: touch;
   overflow-x: hidden;
 }
 
-
 .navigation-display-true{
   background-color: #121212;
-  position: fixed;
   width: 100%;
+  position: fixed;
   z-index: 500;
   height: 100%;
   font-size: 36px;
-  height: 100%;
   display: flex;
   justify-content: space-around;
   flex-direction: column;
-  width: 100%;
   align-items: center;
     p{
       text-align: center;
@@ -125,7 +123,6 @@ html{
 }
 
 body{
-  overflow-x: hidden;
 	// font-family: 'proxima_nova_rgregular', Helvetica, Arial, sans-serif;
   font-family: fallback;
 }
@@ -164,7 +161,7 @@ body{
 
 .footer-main{
   position: absolute;
-  margin-top: 80px;
+  margin-top: 120px;
   background-color: transparent;
   width: 100%;
   height: auto;
@@ -262,6 +259,16 @@ body{
   .pics-container {
     flex-direction: column;
   }
+
+  .page-container{
+    .title{
+      color: white !important;
+      top: 10em !important;
+    }
+    .button-container{
+      top: 27.5em !important;
+    }
+  }
   
   .carousel-control-prev {
     margin-right: 0;
@@ -348,17 +355,14 @@ body{
 }
 
 //? About box
-.about-container{
-  display: flex;
-  justify-content: space-between;
-  position: absolute;
-  flex-wrap: wrap;
-  width: 100%;
-  margin-top: -64px;
-  height: 100vh;
-  .about-wrapper{
+.about-wrapper{
     display: flex;
+    position: absolute;
+    width: 100vw;
+    margin-top: -64px;
     flex-direction: row;
+    left: auto;
+    right: auto;
     &:nth-child(2){
       margin-top: 100vh;
     }
@@ -367,6 +371,8 @@ body{
       flex-direction: column;
       text-align: center;
       align-items: center;
+      margin-left: auto;
+      margin-right: auto;
       .about-title{
         margin-top: 110px;
         font-size: 3.5em;
@@ -381,11 +387,10 @@ body{
         color: white;
         max-width: 40%;
         font-size: 1.5em;
-      }
     }
-    .d-container{
-      display: flex;
-    }
+  }
+  .d-container{
+    display: flex;
   }
 }
 
@@ -394,7 +399,7 @@ body{
   text-align: center;
   margin-top: -64px;
   position: absolute;
-  width: 100%;
+  width: 100vw;
   height: 100vh;
   padding-bottom: 2.5rem;
   .title{
@@ -524,7 +529,7 @@ body{
   margin-left: auto;
   margin-right: auto;
   .img-in-container{
-    width: 100%;
+    width: 60vw;
   }
   .description{
     color: white;
@@ -765,6 +770,7 @@ body{
   .navbar-mobile{
     display: flex !important;
     z-index: 5000000 !important;
+    width: 100vw !important;
   }
   #contact-wrap{
     flex-direction: column !important;
