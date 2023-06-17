@@ -78,17 +78,17 @@ export default function NavBar() {
    </Navbar>
 
    <Nav className={display ? "navigation-display" : "navigation-display-true"}>
-        <Link onCLick={hide} className="link" to="/Properties">
+        <Link onClick={hide} className="link" to="/Properties">
           <p>
           Properties
           </p>
         </Link>
-        <Link onCLick={hide} className="link" to="About">
+        <Link onClick={hide} className="link" to="About">
           <p>
           About
           </p>
         </Link>
-        <Link onCLick={hide} className="link" to="Contact">
+        <Link onClick={hide} className="link" to="Contact">
           <p>
           Contact
           </p>

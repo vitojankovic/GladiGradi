@@ -40,7 +40,7 @@ export default function ContactPage() {
           <h1 data-aos="fade-up" className="reveal fade-bottom" id="contact-title">Email</h1>
           <input data-aos="fade-left" className="reveal fade-left" placeholder="Puno ime" id="full-name" />
           <input data-aos="fade-left" className="reveal fade-left" placeholder="Poruka" id="message" />
-          <button data-aos="zoom-in" name="submit contact form" class="submit-contact reveal grow" onclick="pickEmail()">
+          <button data-aos="zoom-in" name="submit contact form" className="submit-contact reveal grow" onClick="pickEmail()">
             Pošalji
           </button>
           <h2 className="reveal opacity-anim">Bazirano u: Privlaka, Hrvatska</h2>
