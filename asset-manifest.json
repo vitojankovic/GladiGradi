@@ -1,0 +1,41 @@
+{
+  "files": {
+    "main.css": "/GladiGradi/static/css/main.dab92069.css",
+    "main.js": "/GladiGradi/static/js/main.65a707cd.js",
+    "static/media/Droid-Sans-Fallback.ttf": "/GladiGradi/static/media/Droid-Sans-Fallback.6e88612a7a7d16781539.ttf",
+    "static/media/sea.webp": "/GladiGradi/static/media/sea.b10a41a3f67644f91b63.webp",
+    "static/media/homescreenfour.webp": "/GladiGradi/static/media/homescreenfour.2c9b2fc46411e4ef31ea.webp",
+    "static/media/2J_ST-2_povrs.jpg": "/GladiGradi/static/media/2J_ST-2_povrs.210cfa731ff582a8d7d3.jpg",
+    "static/media/2J_ST-1_povrs.jpg": "/GladiGradi/static/media/2J_ST-1_povrs.21b16d348dbafe62dc28.jpg",
+    "static/media/1S_ST-1_povrs.jpg": "/GladiGradi/static/media/1S_ST-1_povrs.aa16c2484174b0477f86.jpg",
+    "static/media/1S_ST-2_povrs.jpg": "/GladiGradi/static/media/1S_ST-2_povrs.59de0510b7ed99031d70.jpg",
+    "static/media/pogled I2.webp": "/GladiGradi/static/media/pogled I2.6379a46877271958e80b.webp",
+    "static/media/1S_ST-1_0priz.jpg": "/GladiGradi/static/media/1S_ST-1_0priz.025b50617cb12d00d4cb.jpg",
+    "static/media/1S_ST-2_0priz.jpg": "/GladiGradi/static/media/1S_ST-2_0priz.b9f671f2057dfff14aa7.jpg",
+    "static/media/2J_ST-2_0priz.jpg": "/GladiGradi/static/media/2J_ST-2_0priz.413bdc44ad2c31a18479.jpg",
+    "static/media/SIT-2J_ST1.jpg": "/GladiGradi/static/media/SIT-2J_ST1.37ee4fdc78f4e7f767bb.jpg",
+    "static/media/SIT-2J_ST2.jpg": "/GladiGradi/static/media/SIT-2J_ST2.b02bd671efd9ea44e3d1.jpg",
+    "static/media/SIT-1S_ST1.jpg": "/GladiGradi/static/media/SIT-1S_ST1.fb94d08596d49f80d0e0.jpg",
+    "static/media/SIT-1S_ST2.jpg": "/GladiGradi/static/media/SIT-1S_ST2.8d6d45eaffdb2ea01e20.jpg",
+    "static/media/2J_ST-1_0priz.jpg": "/GladiGradi/static/media/2J_ST-1_0priz.7ea023131dd5ce7b05c6.jpg",
+    "static/media/1S_ST-2_2kat.jpg": "/GladiGradi/static/media/1S_ST-2_2kat.aa34dc872c115a17fb23.jpg",
+    "static/media/1S_ST-1_2kat.jpg": "/GladiGradi/static/media/1S_ST-1_2kat.972bf59ae869fa12b75f.jpg",
+    "static/media/2J_ST-1_2kat.jpg": "/GladiGradi/static/media/2J_ST-1_2kat.898095c9045d8f5d9b5a.jpg",
+    "static/media/2J_ST-2_2kat.jpg": "/GladiGradi/static/media/2J_ST-2_2kat.cd4be72151ec0dfae67a.jpg",
+    "static/media/1S_ST-2_1kat.jpg": "/GladiGradi/static/media/1S_ST-2_1kat.4a91fe7e886d6d304126.jpg",
+    "static/media/1S_ST-1_1kat.jpg": "/GladiGradi/static/media/1S_ST-1_1kat.32b4595ec86fed2b2c76.jpg",
+    "static/media/2J_ST-1_1kat.jpg": "/GladiGradi/static/media/2J_ST-1_1kat.d6b86b1e71ac85810595.jpg",
+    "static/media/2J_ST-2_1kat.jpg": "/GladiGradi/static/media/2J_ST-2_1kat.7f9de3a6a8b657e74503.jpg",
+    "static/media/logo.svg": "/GladiGradi/static/media/logo.835330c365438fade970fe31ca501103.svg",
+    "index.html": "/GladiGradi/index.html",
+    "static/media/twitter.svg": "/GladiGradi/static/media/twitter.02ea4610124fbdf3cb8bc10329c4e7e7.svg",
+    "static/media/instagram.svg": "/GladiGradi/static/media/instagram.1552a4428635704c8257007e0af6cda5.svg",
+    "static/media/facebook.svg": "/GladiGradi/static/media/facebook.aa0d840e5a2b7576911213de0aea0ed8.svg",
+    "main.dab92069.css.map": "/GladiGradi/static/css/main.dab92069.css.map",
+    "main.65a707cd.js.map": "/GladiGradi/static/js/main.65a707cd.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.dab92069.css",
+    "static/js/main.65a707cd.js"
+  ]
+}
