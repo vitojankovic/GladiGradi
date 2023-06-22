@@ -36,7 +36,7 @@ export default function NavBar() {
   return (
     <>
     <Navbar className="navbar">
-      <Link className="navbar-title" to="/">
+      <Link className="navbar-title" to="/GladiGradi">
         <img className="navbar-title" height="51.2" alt="logo-navbar" src={Logo}/>
       </Link>
 

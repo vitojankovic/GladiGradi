@@ -1,5 +1,5 @@
 import NavBar from './components/NavBar.jsx'
-import HomePage from './components/HomePage.jsx'
+import HomePage from './components/GladiGradi.jsx'
 import ContactPage from './components/ContactPage.jsx'
 import AboutPage from './components/AboutPage.jsx'
 import Properties from './components/Properties.jsx'
@@ -23,7 +23,7 @@ function App() {
         <NavBar />
  
         <Routes>
-          <Route path="/" element={<HomePage/>}></Route>
+          <Route path="/GladiGradi" element={<HomePage/>}></Route>
           <Route path="/Contact" element={<ContactPage/>}></Route>
           <Route path="/About" element={<AboutPage/>}></Route>
           <Route path="/Properties" element={<Properties/>}></Route>
